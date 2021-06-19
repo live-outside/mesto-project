@@ -1,0 +1,7 @@
+.profile {
+  padding-block-start: 40px;
+  padding-block-end: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

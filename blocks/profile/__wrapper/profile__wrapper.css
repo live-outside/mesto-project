@@ -1,0 +1,6 @@
+.profile__wrapper {
+  /* padding-inline-start: 30px; */
+  display: flex;
+  justify-items: space-between;
+
+}

@@ -1,3 +1,5 @@
 .logo {
-  padding: 45px 0 41px;
+  padding: 45px 0 40px;
+  display: block;
+  max-width: 142px;
 }
