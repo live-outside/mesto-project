@@ -12,3 +12,11 @@
   margin-inline-start:0;
   margin-inline-end: 0;
 }
+
+@media screen and (max-width: 470px) {
+  .popup__form-heading {
+    font-size: 18px;
+    line-height: 22px;
+    padding-block-end: 75px;
+  }
+}

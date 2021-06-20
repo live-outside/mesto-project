@@ -6,3 +6,12 @@
   padding-inline: 36px;
   position: relative;
 }
+
+
+@media screen and (max-width: 470px) {
+  .popup__form {
+    padding-block-start: 25px;
+    padding-block-end: 25px;
+    padding-inline: 22px;
+  }
+}
