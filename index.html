@@ -18,10 +18,13 @@
         <div class="profile__wrapper">
           <img class="profile__avatar" src="./images/kusto.jpg" alt="Kusto">
           <div class="profile__info">
-            <h1 class="profile__name">Жак-Ив Кусто</h1>
+            <div class="profile__edit-wrapper">
+              <h1 class="profile__name">Жак-Ив Кусто</h1>
+              <button class="profile__edit-button"></button>
+            </div>
             <p class="profile__job">Исследователь океана</p>
           </div>
-          <button class="profile__edit-button"></button>
+
         </div>
         <button class="profile__add-button"></button>
       </section>
@@ -38,7 +41,7 @@
           <img src="./images/element_2.jpg" alt="Гора Эльбрус" class="element__pic">
           <div class="element__desc-wrapper">
             <p class="element__name">Гора Эльбрус</p>
-            <button class="element__like"></button>
+            <button class="element__like element__like_active"></button>
           </div>
         </div>
         <div class="element">
@@ -74,6 +77,24 @@
     <footer>
       <p class="footer__copyright">&copy; 2020 Mesto Russia</p>
     </footer>
+
+    <div class="popup">
+      <div class="popup__container">
+        <form class="popup__form" action="#">
+          <fieldset class="popup__set">
+            <p class="popup__form-heading">Редактировать профиль</p>
+            <label class="popup__form-label" for="name">
+              <input class="popup__form-input" type="text" name="name" id="name" placeholder="Жак-Ив Кусто">
+            </label>
+            <label class="popup__form-label" for="job">
+              <input class="popup__form-input" type="text" name="job" id="job" placeholder="Исследователь океана">
+            </label>
+            <button class="popup__form-button" type="submit">Сохранить</button>
+          </fieldset>
+          <div class="popup__form-close"></div>
+        </form>
+      </div>
+    </div>
   </div>
 </body>
 </html>

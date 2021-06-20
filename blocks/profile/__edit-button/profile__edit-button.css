@@ -7,9 +7,7 @@
   background-color: transparent;
   cursor: pointer;
   display: block;
-
-  /* min-width: 18px;
-  min-height: 18px; */
+  align-self: flex-end;
 }
 
 .profile__edit-button:hover {

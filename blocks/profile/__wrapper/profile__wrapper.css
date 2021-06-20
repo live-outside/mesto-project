@@ -1,6 +1,10 @@
 .profile__wrapper {
-  /* padding-inline-start: 30px; */
   display: flex;
-  justify-items: space-between;
+  align-items: center;
+}
 
+@media screen and (max-width: 1050px) {
+  .profile__wrapper {
+    flex-direction: column;
+  }
 }

@@ -9,4 +9,13 @@
   margin-inline: 0;
   margin: 0;
   padding-inline-end: 18px;
+
+}
+
+@media screen and (max-width: 1050px) {
+  .profile__name {
+    font-size: 27px;
+    line-height: 33px;
+    text-align: center;
+  }
 }

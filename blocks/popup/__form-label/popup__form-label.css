@@ -1,0 +1,8 @@
+.popup__form-label {
+  display: block;
+  padding-block-end: 30px;
+}
+
+.popup__form-label:last-of-type {
+  padding-block-end: 48px;
+}
