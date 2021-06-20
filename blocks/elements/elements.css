@@ -6,3 +6,10 @@
   row-gap: 20px;
   padding-block-end: 66px;
 }
+
+
+@media screen and (max-width: 1050px) {
+  .elements {
+    padding-block-end: 48px;
+  }
+}

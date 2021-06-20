@@ -1,5 +1,0 @@
-.header::after {
-  border-top: 1px solid #545454;
-  padding-block-end: 40px;
-  opacity: .7;
-}
