@@ -1,5 +1,7 @@
 # Проект: Место
 
+Ссылка на prod: https://live-outside.github.io/mesto-project/
+
 Сёрстан по БЭМ.
 
 Проект под тесты javascript.
